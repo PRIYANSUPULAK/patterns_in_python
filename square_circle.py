@@ -13,12 +13,34 @@ def draw_art():
     brad=turtle.Turtle()
     brad.shape("turtle")
     brad.color("yellow")
-    brad.speed(10)
+    brad.speed(30)
     #making 36 squares at an angle difference of 10
     for i in range(0,36):
         draw_square(brad)
         brad.right(10)
-    
+    #making 2nd pattern
+    pulak=turtle.Turtle()
+    pulak.setx(-300)
+    pulak.sety(-225)
+    pulak.shape("turtle")
+    pulak.color("green")
+
+    pulak.speed(30)
+    for i in range(0,36):
+        draw_square(pulak)
+        pulak.right(10)
+
+    #making 3rd pattern
+    any=turtle.Turtle()
+    any.setx(300)
+    any.sety(-225)
+    any.shape("turtle")
+    any.color("blue")
+    any.speed(30)
+
+    for i in range(0,36):
+        draw_square(any)
+        any.right(10)
     window.exitonclick()
 
 draw_art()
