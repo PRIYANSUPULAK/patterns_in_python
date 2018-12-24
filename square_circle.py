@@ -13,7 +13,7 @@ def draw_art():
     brad=turtle.Turtle()
     brad.shape("turtle")
     brad.color("yellow")
-    brad.speed(30)
+    brad.speed(2)
     #making 36 squares at an angle difference of 10
     for i in range(0,36):
         draw_square(brad)
@@ -25,7 +25,7 @@ def draw_art():
     pulak.shape("turtle")
     pulak.color("green")
 
-    pulak.speed(30)
+    pulak.speed(2)
     for i in range(0,36):
         draw_square(pulak)
         pulak.right(10)
@@ -36,7 +36,7 @@ def draw_art():
     any.sety(-225)
     any.shape("turtle")
     any.color("blue")
-    any.speed(30)
+    any.speed(2)
 
     for i in range(0,36):
         draw_square(any)
